@@ -1,0 +1,23 @@
+#title-header {
+  height: 90px;
+}
+
+#sidebar-panel {
+  width: 120px;
+}
+
+#video-panel {
+  max-height: 100%;
+  height: calc(100vh - 200px);
+  width: 70%;
+}
+
+#player {
+  position: relative;
+  max-height: 100%;
+  width: 100%;
+}
+
+#core-text {
+  font-size: 40px;
+}

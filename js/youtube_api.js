@@ -17,8 +17,7 @@ function onYouTubeIframeAPIReady() {
       'cc_load_policy': 1,
       'cc_lang_pref': 'jp-JP'
     },
-    // videoId: video_id,
-    videoId: 'iH_YJde1yps',
+    videoId: video_id,
     width: '100%',
     height: '100%',
     events: {
@@ -43,6 +42,7 @@ var done = false;
 function onPlayerStateChange(event) {
   Shiny.setInputValue("videoStatus", event.data);
 }
+
 function stopVideo() {
   player.stopVideo();
 }
