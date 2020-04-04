@@ -21,3 +21,12 @@
 #core-text {
   font-size: 40px;
 }
+
+#shiny-notification-panel {
+  position: fixed;
+  top: calc(40%);
+  left: 15px;
+  font-size: 50px;
+  width: auto;
+  overflow: auto;
+}
